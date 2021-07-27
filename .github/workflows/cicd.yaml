@@ -4,7 +4,6 @@ on: [push]
 jobs:
   run:
     runs-on: [ubuntu-latest]
-    container: docker://tejasdadhaniya/fitbit:latest
     steps:
     - uses: actions/checkout@v2
     - name: ci_run
