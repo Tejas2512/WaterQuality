@@ -1,0 +1,15 @@
+
+name: fitbit-app
+on: [push]
+jobs:
+  run:
+    runs-on: [ubuntu-latest]
+    container: docker://tejasdadhaniya/fitbit:latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: ci_run
+      env:
+         repo-token: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        pip install -r requirements.txt
+        python main.py
