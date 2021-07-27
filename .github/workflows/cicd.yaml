@@ -4,6 +4,9 @@ on: [push]
 jobs:
   run:
     runs-on: [ubuntu-latest]
+    strategy:
+      matrix:
+        python-version: [3.6]
     steps:
     - uses: actions/checkout@v2
     - name: ci_run
