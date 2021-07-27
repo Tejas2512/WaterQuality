@@ -1,5 +1,5 @@
 
-name: fitbit-app
+name: water-quality
 on: [push]
 jobs:
   run:
@@ -8,9 +8,17 @@ jobs:
       matrix:
         python-version: [3.6.14, 3.6, 3.7]
     steps:
+    
     - uses: actions/checkout@v2
     - name: ci_run
       env:
          repo-token: ${{ secrets.MY_GITHUB_TOKEN }}
       run: |
         pip install -r requirements.txt
+    - uses: actions/checkout@v2
+    - uses: akhileshns/heroku-deploy@v3.0.0
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "your_app_name"
+        heroku_email: "your e-mail address associated with Heroku"
+        usedocker: true
