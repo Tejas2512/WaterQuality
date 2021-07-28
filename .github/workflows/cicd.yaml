@@ -10,6 +10,8 @@ jobs:
     steps:
     
     - uses: actions/checkout@v2
+    - run: |
+        git fetch --prune --unshallow
     - name: Install all dependencies
       env:
          repo-token: ${{ secrets.MY_GITHUB_TOKEN }}
@@ -27,4 +29,4 @@ jobs:
       if: github.ref == 'refs/heads/main' && job.status == 'success'
       run: |
         git remote add heroku https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git
-        git push heroku HEAD:main -f
+        git push heroku HEAD:master -f
