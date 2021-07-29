@@ -9,8 +9,9 @@ Build web application using flask and python to predict water potability.
 Access to safe drinking-water is essential to health, a basic human right and a component of effective policy for health protection. This is important as a health and development issue at a national, regional and local level. In some regions, it has been shown that investments in water supply and sanitation can yield a net economic benefit, since the reductions in adverse health effects and health care costs outweigh the costs of undertaking the interventions.
 
 ## Architecture
-
-<img src="https://github.com/Tejas2512/WaterQuality/blob/6785bcefb50cee80ccdb67f347772735dd63846c/images/flowchart.png" width="100%">
+<p align="center">
+<img src="https://github.com/Tejas2512/WaterQuality/blob/6785bcefb50cee80ccdb67f347772735dd63846c/images/flowchart.png">
+</p>
 
 ## About Data
 
