@@ -38,3 +38,5 @@ mg/L: milligram per litre
 <img src="https://github.com/Tejas2512/WaterQuality/blob/51fd9bc6f0dda161d4ea6e4a88857a5d8d3880fa/images/water-quality.gif" >
 </p>
 
+## App URL
+https://water-potability-checker.herokuapp.com/
