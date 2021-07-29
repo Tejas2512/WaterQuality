@@ -31,3 +31,10 @@ mg/L: milligram per litre
 **8. Trihalomethanes:** Amount of Trihalomethanes in μg/L.\
 **9. Turbidity:** Measure of light emiting property of water in NTU.\
 **10. Potability:** Indicates if water is safe for human consumption. Potable is 1 and not potable is 0.
+
+
+## Prediction
+<p align="center">
+<img src="https://github.com/Tejas2512/WaterQuality/blob/51fd9bc6f0dda161d4ea6e4a88857a5d8d3880fa/images/water-quality.gif" >
+</p>
+
