@@ -6,8 +6,7 @@ Access to safe drinking-water is essential to health, a basic human right and a 
 
 ## Architecture
 
-![alt text](https://github.com/Tejas2512/WaterQuality/blob/307b85e557b41dd206646c2311e2de8c910bd4c1/images/flow.png)
-
+<img src="https://github.com/Tejas2512/WaterQuality/blob/6785bcefb50cee80ccdb67f347772735dd63846c/images/flowchart.png" width="100%">
 
 ## About Data
 
