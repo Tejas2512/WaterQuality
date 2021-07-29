@@ -35,6 +35,12 @@ mg/L: milligram per litre
 
 ## Prediction
 
+  ph | Hardness | Solids | Chloramines | Sulfate | Conductivity | Organic_carbon | Trihalomethanes | Turbidity | Potability
+ --- | --- | --- |--- |--- |--- |--- |--- |--- |---
+ 6.8 | 181 | 500 | 3 | 30 | 350 | 2 | 70 | 4 | 1
+  8.8 | 224 | 1100 | 6 | 1500 | 600 | 5 | 90 | 6 | 0
+
+
 <p align="center">
 <img src="https://github.com/Tejas2512/WaterQuality/blob/51fd9bc6f0dda161d4ea6e4a88857a5d8d3880fa/images/water-quality.gif" >
 </p>
