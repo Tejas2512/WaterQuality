@@ -1,4 +1,8 @@
 # WaterQuality
+<p align="center">
+<img src="https://github.com/Tejas2512/WaterQuality/blob/fcdede47d58522842b24728bffc17f10c3dbb764/images/water.gif" >
+</p>
+
 Build web application using flask and python to predict water potability.
 
 ## Context
